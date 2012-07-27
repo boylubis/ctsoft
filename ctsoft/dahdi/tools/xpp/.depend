@@ -1,0 +1,33 @@
+astribank_allow.o: astribank_allow.c mpp.h mpptalk_defs.h \
+ xtalk/xtalk_defs.h xtalk/xtalk.h mpptalk.h astribank_usb.h xtalk/xusb.h \
+ xtalk/xlist.h xtalk/debug.h astribank_license.h
+astribank_hexload.o: astribank_hexload.c xtalk/debug.h hexfile.h \
+ mpptalk.h mpp.h mpptalk_defs.h xtalk/xtalk_defs.h xtalk/xtalk.h \
+ astribank_usb.h xtalk/xusb.h xtalk/xlist.h pic_loader.h echo_loader.h \
+ ../autoconfig.h
+astribank_is_starting.o: astribank_is_starting.c ../autoconfig.h
+astribank_license.o: astribank_license.c xtalk/debug.h \
+ astribank_license.h mpp.h mpptalk_defs.h xtalk/xtalk_defs.h \
+ xtalk/xtalk.h
+astribank_tool.o: astribank_tool.c astribank_usb.h xtalk/xusb.h \
+ xtalk/xlist.h xtalk/xtalk.h xtalk/xtalk_defs.h mpp.h mpptalk_defs.h \
+ mpptalk.h xtalk/debug.h
+astribank_usb.o: astribank_usb.c xtalk/xusb.h xtalk/xlist.h \
+ astribank_usb.h xtalk/xtalk.h xtalk/xtalk_defs.h mpp.h mpptalk_defs.h \
+ xtalk/debug.h
+echo_loader.o: echo_loader.c echo_loader.h astribank_usb.h xtalk/xusb.h \
+ xtalk/xlist.h xtalk/xtalk.h xtalk/xtalk_defs.h mpp.h mpptalk_defs.h \
+ xtalk/debug.h
+fpga_load.o: fpga_load.c hexfile.h
+hexfile.o: hexfile.c hexfile.h
+mpptalk.o: mpptalk.c hexfile.h astribank_usb.h xtalk/xusb.h xtalk/xlist.h \
+ xtalk/xtalk.h xtalk/xtalk_defs.h mpp.h mpptalk_defs.h mpptalk.h \
+ xtalk/debug.h
+pic_loader.o: pic_loader.c hexfile.h pic_loader.h astribank_usb.h \
+ xtalk/xusb.h xtalk/xlist.h xtalk/xtalk.h xtalk/xtalk_defs.h mpp.h \
+ mpptalk_defs.h xtalk/debug.h
+test_parse.o: test_parse.c hexfile.h
+debug.o: xtalk/debug.c xtalk/debug.h
+xlist.o: xtalk/xlist.c xtalk/xlist.h
+xtalk.o: xtalk/xtalk.c xtalk/xtalk.h xtalk/xtalk_defs.h xtalk/debug.h
+xusb.o: xtalk/xusb.c xtalk/debug.h xtalk/xusb.h xtalk/xlist.h

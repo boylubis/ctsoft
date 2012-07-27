@@ -1,0 +1,1 @@
+clicompat.o: clicompat.c

@@ -1,0 +1,265 @@
+# NOTE: Names of _INCLUDE and _LIB entries in this file must be
+#       the exact uppercase equivalents of the names used for
+#       dependencies in menuselect for the same package.
+
+CC=gcc
+HOST_CC=cc
+CXX=g++
+
+INSTALL=/usr/bin/install -c
+AWK=gawk
+GREP=/bin/grep
+AR=/usr/bin/ar
+RANLIB=ranlib
+FIND=/bin/find
+COMPRESS=/usr/bin/compress
+BASENAME=/bin/basename
+ID=/usr/bin/id
+SHELL=/bin/sh
+LN=/bin/ln
+DOT=/usr/bin/dot
+STRIP=/usr/bin/strip
+WGET=/usr/bin/wget
+FETCH=
+DOWNLOAD=/usr/bin/wget
+RUBBER=:
+KPATHSEA=/usr/bin/kpsewhich
+XMLSTARLET=:
+MD5=md5sum
+
+BUILD_PLATFORM=x86_64-unknown-linux-gnu
+BUILD_CPU=x86_64
+BUILD_VENDOR=unknown
+BUILD_OS=linux-gnu
+
+HOST_PLATFORM=x86_64-unknown-linux-gnu
+HOST_CPU=x86_64
+HOST_VENDOR=unknown
+HOST_OS=linux-gnu
+
+PROC=x86_64
+OSARCH=linux-gnu
+OSREV=2.6.32-220.17.1.el6.x86_64
+
+GC_CFLAGS=-ffunction-sections
+GC_LDFLAGS=-Wl,--gc-sections
+
+PTHREAD_CFLAGS=-pthread
+PTHREAD_LIBS=
+
+CONFIG_CFLAGS=
+CONFIG_LDFLAGS=
+
+prefix = /usr
+exec_prefix = ${prefix}
+
+bindir = ${exec_prefix}/bin
+datarootdir = ${prefix}/share
+datadir = ${datarootdir}
+includedir = ${prefix}/include
+infodir = ${datarootdir}/info
+libdir = ${exec_prefix}/lib
+libexecdir = ${exec_prefix}/libexec
+localstatedir = /var
+mandir = ${datarootdir}/man
+sbindir = ${exec_prefix}/sbin
+sharedstatedir = ${prefix}/com
+sysconfdir = /etc
+
+AST_DEVMODE=
+
+AST_DECLARATION_AFTER_STATEMENT=-Wdeclaration-after-statement
+AST_NO_STRICT_OVERFLOW=-fno-strict-overflow
+AST_SHADOW_WARNINGS=-Wshadow
+AST_FORTIFY_SOURCE=-D_FORTIFY_SOURCE=2
+
+ALSA_INCLUDE= 
+ALSA_LIB= -lasound -lm -ldl
+
+CURL_INCLUDE=
+CURL_LIB=-lcurl  
+
+CURSES_INCLUDE= 
+CURSES_LIB= -lcurses 
+CURSES_DIR=
+
+EDITLINE_LIB= -ltermcap 
+
+FREETDS_INCLUDE=
+FREETDS_LIB=
+
+GENERIC_ODBC_INCLUDE= 
+GENERIC_ODBC_LIB= -lodbc 
+
+GMIME_INCLUDE=
+GMIME_LIB=
+
+HOARD_LIB=
+
+GSM_INTERNAL=yes
+GSM_INCLUDE=
+GSM_LIB=
+
+GTK_INCLUDE=
+GTK_LIB=
+
+GTK2_INCLUDE=-I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12  
+GTK2_LIB=-lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lpangocairo-1.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lglib-2.0  
+
+ICONV_INCLUDE= 
+ICONV_LIB= -lc 
+
+IKSEMEL_INCLUDE=
+IKSEMEL_LIB=
+
+IMAP_TK_INCLUDE=
+IMAP_TK_LIB=
+
+IODBC_INCLUDE=
+IODBC_LIB=
+
+JACK_INCLUDE=
+JACK_LIB=
+
+LDAP_INCLUDE= 
+LDAP_LIB= -lldap 
+
+LUA_INCLUDE=
+LUA_LIB=
+
+NBS_INCLUDE=
+NBS_LIB=
+
+NCURSES_INCLUDE= 
+NCURSES_LIB= -lncurses 
+NCURSES_DIR=
+
+NETSNMP_INCLUDE=-DNETSNMP_ENABLE_IPV6 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic -D_RPM_4_4_COMPAT -Ulinux -Dlinux=linux -I/usr/include/rpm -D_REENTRANT -D_GNU_SOURCE -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib64/perl5/CORE -I. -I/usr/include
+NETSNMP_LIB=-Wl,-z,relro -Wl,-z,now -L/usr/lib64 -lnetsnmpagent -lnetsnmphelpers -lnetsnmpmibs -lnetsnmp -Wl,-E -Wl,-rpath,/usr/lib64/perl5/CORE
+
+NEWT_INCLUDE=
+NEWT_LIB=
+
+OGG_INCLUDE=
+OGG_LIB=
+
+OSPTK_INCLUDE=
+OSPTK_LIB=
+
+# ossaudio can optionally use ffmpeg, x11, sdl and sdl_image.
+# Because sdl_image in turn depends on sdl, we don't duplicate the include
+OSS_INCLUDE=   -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT  
+OSS_LIB=  -lSDL -lpthread   -lX11 
+
+PGSQL_INCLUDE=-I/usr/include
+PGSQL_LIB=-L/usr/lib64 -lpq -lz
+
+POPT_INCLUDE= 
+POPT_LIB= -lpopt 
+
+PORTAUDIO_INCLUDE=
+PORTAUDIO_LIB=
+
+PRI_INCLUDE=
+PRI_LIB=
+
+RESAMPLE_INCLUDE=
+RESAMPLE_LIB=
+
+SS7_INCLUDE=
+SS7_LIB=
+
+OPENR2_INCLUDE=
+OPENR2_LIB=
+
+PWLIB_INCLUDE=
+PWLIB_LIB=
+
+AIS_INCLUDE=-I/usr/include/openais
+AIS_LIB=-lSaClm -lSaEvt -L/usr/lib/openais -L/usr/lib64/openais
+
+RADIUS_INCLUDE=
+RADIUS_LIB=
+
+FFMPEG_INCLUDE=
+FFMPEG_LIB=
+
+X11_INCLUDE= 
+X11_LIB= -lX11 
+
+SDL_INCLUDE=-I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT
+SDL_LIB=-lSDL -lpthread
+
+SDL_IMAGE_INCLUDE=
+SDL_IMAGE_LIB=
+
+SPANDSP_INCLUDE=
+SPANDSP_LIB=
+
+SPEEX_INCLUDE=
+SPEEX_LIB=
+
+SPEEXDSP_INCLUDE=
+SPEEXDSP_LIB=
+
+SQLITE_INCLUDE=
+SQLITE_LIB=
+
+SQLITE3_INCLUDE= 
+SQLITE3_LIB= -lsqlite3 
+
+OPENSSL_INCLUDE= 
+OPENSSL_LIB= -lssl -lcrypto
+
+CRYPTO_INCLUDE= 
+CRYPTO_LIB= -lcrypto 
+
+TONEZONE_INCLUDE= 
+TONEZONE_LIB= -ltonezone  -I/home/kicaw/ctsoft/dahdi/include
+
+USB_INCLUDE= 
+USB_LIB= -lusb 
+
+UNIXODBC_INCLUDE= 
+UNIXODBC_LIB= -lodbc 
+
+VORBIS_INCLUDE=
+VORBIS_LIB=
+
+VPB_INCLUDE=
+VPB_LIB=
+
+DAHDI_INCLUDE=-I/home/kicaw/ctsoft/dahdi/include
+
+ZLIB_INCLUDE= 
+ZLIB_LIB= -lz 
+
+ISDNNET_INCLUDE=
+ISDNNET_LIB=
+
+MISDN_INCLUDE=
+MISDN_LIB=
+
+SUPPSERV_INCLUDE=
+SUPPSERV_LIB=
+
+CAP_LIB= -lcap 
+CAP_INCLUDE= 
+
+BKTR_INCLUDE= 
+BKTR_LIB= -lc 
+
+TERMCAP_INCLUDE= 
+TERMCAP_LIB= -ltermcap 
+TERMCAP_DIR=
+
+LIBXML2_INCLUDE=
+LIBXML2_LIB=
+
+TINFO_INCLUDE= 
+TINFO_LIB= -ltinfo 
+TINFO_DIR=
+
+# if poll is not present, let the makefile know.
+POLL_AVAILABLE=1
+TIMERFD_INCLUDE=

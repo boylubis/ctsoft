@@ -1,0 +1,47 @@
+CC=gcc
+LD=ld
+HOSTCC=gcc
+CFLAGS=-g -O2
+LDFLAGS=
+
+INSTALL=/usr/bin/install -c
+GREP=/bin/grep
+SHELL=/bin/bash
+LN=/bin/ln
+
+prefix = /usr
+exec_prefix = ${prefix}
+
+bindir = ${exec_prefix}/bin
+datarootdir = ${prefix}/share
+datadir = ${datarootdir}
+includedir = ${prefix}/include
+infodir = ${datarootdir}/info
+libdir = ${exec_prefix}/lib
+libexecdir = ${exec_prefix}/libexec
+localstatedir = /var
+mandir = ${datarootdir}/man
+sbindir = ${exec_prefix}/sbin
+sharedstatedir = ${prefix}/com
+sysconfdir = /etc
+
+DOWNLOAD=/usr/bin/wget
+
+DAHDI_DEVMODE=
+DAHDI_DECLARATION_AFTER_STATEMENT=-Wdeclaration-after-statement
+
+PBX_NEWT=0
+NEWT_LIB=
+NEWT_INCLUDE=
+
+PBX_USB=0
+USB_LIB=
+USB_INCLUDE=
+
+DAHDI_INCLUDE=-I../linux/include
+
+USE_SELINUX=no
+
+PPPD_VERSION=
+
+ASCIIDOC=asciidoc

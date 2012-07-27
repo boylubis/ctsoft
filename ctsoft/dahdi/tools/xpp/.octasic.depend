@@ -1,0 +1,520 @@
+oct6100_adpcm_chan.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_adpcm_chan.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_adpcm_chan_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_adpcm_chan_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_adpcm_chan_priv.h
+oct6100_channel.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_channel.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_mixer_inst.h \
+ oct612x/include/oct6100api/oct6100_tsi_cnct_inst.h \
+ oct612x/include/oct6100api/oct6100_conf_bridge_inst.h \
+ oct612x/include/oct6100api/oct6100_tone_detection_inst.h \
+ oct612x/include/oct6100api/oct6100_phasing_tsst_inst.h \
+ oct612x/include/oct6100api/oct6100_tsst_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_tsi_cnct_pub.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_pub.h \
+ oct612x/include/oct6100api/oct6100_phasing_tsst_pub.h \
+ oct612x/include/oct6100api/oct6100_mixer_pub.h \
+ oct612x/include/oct6100api/oct6100_conf_bridge_pub.h \
+ oct612x/include/oct6100api/oct6100_tone_detection_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_debug_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_mixer_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_phasing_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsi_cnct_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_playout_buf_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_conf_bridge_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tone_detection_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_debug_priv.h
+oct6100_chip_open.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_chip_open.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/apilib/octapi_bt0.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_tsi_cnct_inst.h \
+ oct612x/include/oct6100api/oct6100_events_inst.h \
+ oct612x/include/oct6100api/oct6100_conf_bridge_inst.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_inst.h \
+ oct612x/include/oct6100api/oct6100_mixer_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_adpcm_chan_inst.h \
+ oct612x/include/oct6100api/oct6100_phasing_tsst_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_pub.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_tsi_cnct_pub.h \
+ oct612x/include/oct6100api/oct6100_events_pub.h \
+ oct612x/include/oct6100api/oct6100_conf_bridge_pub.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_adpcm_chan_pub.h \
+ oct612x/include/oct6100api/oct6100_phasing_tsst_pub.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_mixer_pub.h \
+ oct612x/include/oct6100api/oct6100_debug_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_interrupts_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_stats_priv.h \
+ oct612x/include/octrpc/rpc_protocol.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_remote_debug_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsi_cnct_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_mixer_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_events_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_conf_bridge_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_playout_buf_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_adpcm_chan_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_phasing_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tlv_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_debug_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_version.h
+oct6100_chip_stats.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_chip_stats.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_stats_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h
+oct6100_conf_bridge.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_conf_bridge.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_mixer_inst.h \
+ oct612x/include/oct6100api/oct6100_conf_bridge_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_mixer_pub.h \
+ oct612x/include/oct6100api/oct6100_conf_bridge_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_mixer_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_conf_bridge_priv.h
+oct6100_debug.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_debug.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_debug_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_debug_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_version.h
+oct6100_events.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_events.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_events_inst.h \
+ oct612x/include/oct6100api/oct6100_tone_detection_inst.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_events_pub.h \
+ oct612x/include/oct6100api/oct6100_tone_detection_pub.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_events_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tone_detection_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_playout_buf_priv.h
+oct6100_interrupts.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_interrupts.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_events_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_events_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_interrupts_priv.h
+oct6100_memory.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_memory.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h
+oct6100_miscellaneous.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_miscellaneous.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/apilib/octapi_largmath.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h
+oct6100_mixer.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_mixer.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_mixer_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_mixer_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_mixer_priv.h
+oct6100_phasing_tsst.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_phasing_tsst.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_phasing_tsst_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_phasing_tsst_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_phasing_tsst_priv.h
+oct6100_playout_buf.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_playout_buf.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_events_pub.h \
+ oct612x/include/oct6100api/oct6100_playout_buf_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_events_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_playout_buf_priv.h
+oct6100_remote_debug.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_remote_debug.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/apilib/octapi_bt0.h \
+ oct612x/include/apilib/octapi_largmath.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_debug_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_pub.h \
+ oct612x/include/octrpc/rpc_protocol.h \
+ oct612x/include/octrpc/oct6100_rpc_protocol.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_debug_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_remote_debug_priv.h
+oct6100_tlv.o: oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_tlv.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tlv_priv.h
+oct6100_tone_detection.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_tone_detection.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_tone_detection_inst.h \
+ oct612x/include/oct6100api/oct6100_events_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_tone_detection_pub.h \
+ oct612x/include/oct6100api/oct6100_events_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tone_detection_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_events_priv.h
+oct6100_tsi_cnct.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_tsi_cnct.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_channel_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_tsi_cnct_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_tsi_cnct_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_miscellaneous_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_memory_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsst_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_channel_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsi_cnct_priv.h
+oct6100_tsst.o: \
+ oct612x//octdeviceapi/oct6100api/oct6100_api/oct6100_tsst.c \
+ oct612x/include/octdef.h oct612x/include/octosdependant.h \
+ oct612x/include/octtype.h oct612x/include/digium_unused.h \
+ oct612x/include/oct6100api/oct6100_defines.h \
+ oct612x/include/oct6100api/oct6100_errors.h \
+ oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/oct6100api/oct6100_apiud.h \
+ oct612x/include/oct6100api/oct6100_tlv_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_open_inst.h \
+ oct612x/include/oct6100api/oct6100_chip_stats_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_inst.h \
+ oct612x/include/oct6100api/oct6100_remote_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_debug_inst.h \
+ oct612x/include/oct6100api/oct6100_api_inst.h \
+ oct612x/include/oct6100api/oct6100_tsst_inst.h \
+ oct612x/include/oct6100api/oct6100_interrupts_pub.h \
+ oct612x/include/oct6100api/oct6100_channel_pub.h \
+ oct612x/include/oct6100api/oct6100_chip_open_pub.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_chip_open_priv.h \
+ oct612x/octdeviceapi/oct6100api/oct6100_tsst_priv.h
+octapi_bt0.o: oct612x//apilib/bt/octapi_bt0.c \
+ oct612x/include/apilib/octapi_bt0.h oct612x/include/octdef.h \
+ oct612x/include/octosdependant.h oct612x/include/octtype.h \
+ oct612x/include/digium_unused.h oct612x//apilib/bt/octapi_bt0_private.h
+octapi_largmath.o: oct612x//apilib/largmath/octapi_largmath.c \
+ oct612x/include/apilib/octapi_largmath.h oct612x/include/octdef.h \
+ oct612x/include/octosdependant.h oct612x/include/octtype.h \
+ oct612x/include/digium_unused.h
+octapi_llman.o: oct612x//apilib/llman/octapi_llman.c \
+ oct612x//apilib/llman/octapi_llman_private.h oct612x/include/octdef.h \
+ oct612x/include/octosdependant.h oct612x/include/octtype.h \
+ oct612x/include/digium_unused.h oct612x/include/apilib/octapi_llman.h \
+ oct612x/include/apilib/octapi_largmath.h

@@ -1,0 +1,1 @@
+cmd_/home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/wcb4xxp/wcb4xxp.o := ld -m elf_i386   -r -o /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/wcb4xxp/wcb4xxp.o /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/wcb4xxp/base.o 

@@ -1,0 +1,125 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+ .name = KBUILD_MODNAME,
+ .init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+ .exit = cleanup_module,
+#endif
+ .arch = MODULE_ARCH_INIT,
+};
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x7d09bae2, "module_layout" },
+	{ 0x6bc3fbc0, "__unregister_chrdev" },
+	{ 0x9fe87d0a, "bus_register" },
+	{ 0xe90dcae0, "__request_module" },
+	{ 0xa3247381, "per_cpu__current_task" },
+	{ 0x27a3b3fa, "kmalloc_caches" },
+	{ 0x12da5bb2, "__kmalloc" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0xcff53400, "kref_put" },
+	{ 0xe2ad1653, "driver_register" },
+	{ 0xb279da12, "pv_lock_ops" },
+	{ 0xd50babba, "single_open" },
+	{ 0x6980fe91, "param_get_int" },
+	{ 0xd0d8621b, "strlen" },
+	{ 0x8230781d, "dev_set_drvdata" },
+	{ 0xc8b57c27, "autoremove_wake_function" },
+	{ 0x67053080, "current_kernel_time" },
+	{ 0x8ac0fc48, "single_release" },
+	{ 0xce98c1d1, "kobject_uevent" },
+	{ 0x973873ab, "_spin_lock" },
+	{ 0xc633495b, "schedule_work" },
+	{ 0x105e2727, "__tracepoint_kmalloc" },
+	{ 0x42139ef1, "seq_printf" },
+	{ 0x23869dc7, "cancel_work_sync" },
+	{ 0xef97c22d, "remove_proc_entry" },
+	{ 0xcf20bd97, "device_destroy" },
+	{ 0x6729d3df, "__get_user_4" },
+	{ 0x5aa3f103, "__register_chrdev" },
+	{ 0x75811312, "crc_ccitt_table" },
+	{ 0x6a9f26c9, "init_timer_key" },
+	{ 0xbd7fe945, "mutex_unlock" },
+	{ 0xff964b25, "param_set_int" },
+	{ 0x712aa29b, "_spin_lock_irqsave" },
+	{ 0x3c2c5af5, "sprintf" },
+	{ 0xe41637b9, "seq_read" },
+	{ 0x7d11c268, "jiffies" },
+	{ 0xe2d5255a, "strcmp" },
+	{ 0xda1a7335, "kasprintf" },
+	{ 0xffc7c184, "__init_waitqueue_head" },
+	{ 0xa13798f8, "printk_ratelimit" },
+	{ 0x9629486a, "per_cpu__cpu_number" },
+	{ 0x41344088, "param_get_charp" },
+	{ 0xe83fea1, "del_timer_sync" },
+	{ 0x53ddb616, "proc_mkdir" },
+	{ 0xb9f3da95, "device_del" },
+	{ 0x52a9c01c, "device_register" },
+	{ 0x8d3894f2, "_ctype" },
+	{ 0x70d1f8f3, "strncat" },
+	{ 0xb72397d5, "printk" },
+	{ 0x42224298, "sscanf" },
+	{ 0xacdeb154, "__tracepoint_module_get" },
+	{ 0x64c8de1a, "driver_unregister" },
+	{ 0xaafdc258, "strcasecmp" },
+	{ 0xa1c76e0a, "_cond_resched" },
+	{ 0x2f287f0d, "copy_to_user" },
+	{ 0xb4390f9a, "mcount" },
+	{ 0x73e20c1c, "strlcpy" },
+	{ 0x16305289, "warn_slowpath_null" },
+	{ 0xec91df03, "mutex_lock" },
+	{ 0x4b07e779, "_spin_unlock_irqrestore" },
+	{ 0xfda5d96e, "device_create" },
+	{ 0x45450063, "mod_timer" },
+	{ 0x46085e4f, "add_timer" },
+	{ 0x668b7a4a, "device_add" },
+	{ 0xf05e4905, "bus_unregister" },
+	{ 0x61651be, "strcat" },
+	{ 0x52069f0, "module_put" },
+	{ 0x9dd454a7, "kmem_cache_alloc" },
+	{ 0x8ff4079b, "pv_irq_ops" },
+	{ 0xb2fd5ceb, "__put_user_4" },
+	{ 0x8b5c4927, "put_device" },
+	{ 0xf0fdf6cb, "__stack_chk_fail" },
+	{ 0x3bd1b1f6, "msecs_to_jiffies" },
+	{ 0x4292364c, "schedule" },
+	{ 0x7c866d11, "create_proc_entry" },
+	{ 0x9d8158da, "dev_driver_string" },
+	{ 0x7ecb001b, "__per_cpu_offset" },
+	{ 0xa3d029d8, "get_device" },
+	{ 0x6ad065f4, "param_set_charp" },
+	{ 0x642e54ac, "__wake_up" },
+	{ 0x1d4ed88e, "seq_lseek" },
+	{ 0x3ae831b6, "kref_init" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x33d92f9a, "prepare_to_wait" },
+	{ 0x8a1203a9, "kref_get" },
+	{ 0xaa70741e, "device_initialize" },
+	{ 0xa8f3ff3d, "class_destroy" },
+	{ 0x9ccb2622, "finish_wait" },
+	{ 0xb3384b74, "device_unregister" },
+	{ 0x701d0ebd, "snprintf" },
+	{ 0x8235805b, "memmove" },
+	{ 0x1e84354e, "dev_set_name" },
+	{ 0xdecb46af, "__class_create" },
+	{ 0xd6c963c, "copy_from_user" },
+	{ 0x12b5b0f1, "dev_get_drvdata" },
+	{ 0xe914e41e, "strcpy" },
+	{ 0xb9eb3aa9, "add_uevent_var" },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=crc-ccitt";
+
+
+MODULE_INFO(srcversion, "0AFDAE1CD29137EA0FA18FB");

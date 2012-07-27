@@ -1,0 +1,4 @@
+./configure --disable-xmldoc --with-dahdi=/usr/src/ctsoft/dahdi
+make
+make install
+

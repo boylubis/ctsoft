@@ -1,0 +1,2 @@
+/home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/voicebus/dahdi_voicebus.ko
+/home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/voicebus/voicebus.o /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/voicebus/GpakCust.o /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/voicebus/GpakApi.o /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/voicebus/voicebus_net.o /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/voicebus/vpmoct.o

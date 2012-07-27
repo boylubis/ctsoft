@@ -1,0 +1,1 @@
+cmd_/home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/xpp/print_fxo_modes := gcc  -o /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/xpp/print_fxo_modes /home/kicaw/dahdi-linux-complete-2.6.1+2.6.1/linux/drivers/dahdi/xpp/print_fxo_modes.o  
